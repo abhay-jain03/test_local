@@ -1,0 +1,220 @@
+@media screen and (max-width: 360px) and (min-width: 321px) {
+  .mobFlexspare {
+    flex-direction: column;
+  }
+
+  .spareContentFirst {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .spareContentSecond {
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .orderNumberSpare {
+    font-size: 16px;
+  }
+
+  .placedOrderSpare {
+    font-size: 12px;
+    margin-top: 0.5rem;
+  }
+
+  .partBrandSpare {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .returnSpare {
+    margin-left: 0;
+    margin-top: 1.3rem;
+  }
+
+  .paddingOneremSpare {
+    margin-left: 1.2rem;
+  }
+
+  .paddingLeftZEFrem {
+    padding-left: 0;
+  }
+
+  .paddingLeftOFrem {
+    padding-left: 0;
+  }
+
+  .paddingLeftQTrem {
+    padding-left: 0;
+  }
+
+  .paddingRightOESrem {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 375px) {
+  .mobFlexspare {
+    flex-direction: column;
+  }
+
+  .spareContentFirst {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .spareContentSecond {
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .orderNumberSpare {
+    font-size: 16px;
+  }
+
+  .placedOrderSpare {
+    font-size: 12px;
+    margin-top: 0.5rem;
+  }
+
+  .partBrandSpare {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .returnSpare {
+    margin-left: 0;
+    margin-top: 1.3rem;
+  }
+
+  .paddingOneremSpare {
+    margin-left: 1.2rem;
+  }
+
+  .paddingLeftZEFrem {
+    padding-left: 0;
+  }
+
+  .paddingLeftOFrem {
+    padding-left: 0;
+  }
+
+  .paddingLeftOTrem {
+    padding-left: 0;
+  }
+
+  .paddingRightOESrem {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 450px) and (min-width: 410px) {
+  .mobFlexspare {
+    flex-direction: column;
+  }
+
+  .spareContentFirst {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .spareContentSecond {
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .orderNumberSpare {
+    /* font-size: 16px; */
+    font-size: 12px;
+    margin-top: 0.5rem;
+  }
+
+  .partBrandSpare {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .returnSpare {
+    margin-left: 0;
+    margin-top: 1.3rem;
+  }
+
+  .paddingOneremSpare {
+    margin-left: 1.2rem;
+  }
+
+  .paddingLeftZEFrem {
+    padding-left: 0;
+  }
+
+  .paddingLeftOFrem {
+    padding-left: 0;
+  }
+
+  .paddingLeftOTrem {
+    padding-left: 0;
+  }
+
+  .paddingRightOESrem {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .mobFlexspare {
+    flex-direction: column;
+  }
+
+  .spareContentFirst {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .spareContentSecond {
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .orderNumberSpare {
+    font-size: 16px;
+  }
+
+  .placedOrderSpare {
+    font-size: 12px;
+    margin-top: 0.5rem;
+  }
+
+  .partBrandSpare {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .returnSpare {
+    margin-left: 0;
+    margin-top: 1.3rem;
+  }
+
+  .paddingOneremSpare {
+    margin-left: 1.2rem;
+  }
+
+  .paddingLeftZEFrem {
+    padding-left: 0;
+  }
+
+  .paddingLeftOFrem {
+    padding-left: 0;
+  }
+
+  .paddingLeftOTrem {
+    padding-left: 0;
+  }
+
+  .paddingRightOESrem {
+    padding-right: 0;
+  }
+}

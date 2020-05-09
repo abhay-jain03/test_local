@@ -1,0 +1,298 @@
+/* .heading-1-oh {
+  width: 8.33%;
+  float: left;
+}
+.heading-2-oh {
+  width: 16.66%;
+  float: left;
+}
+.heading-3-oh {
+  width: 25%;
+  float: left;
+}
+.heading-4-oh {
+  width: 33.33%;
+  float: left;
+}
+.heading-5-oh {
+  width: 41.66%;
+  float: left;
+}
+.heading-6-oh {
+  width: 50%;
+  float: left;
+}
+.heading-7-oh {
+  width: 58.33%;
+  float: left;
+}
+
+.heading-8-oh {
+  width: 66.66%;
+  float: left;
+}
+.heading-9-oh {
+  width: 75%;
+  float: left;
+}
+.heading-10-oh {
+  width: 83.33%;
+  float: left;
+}
+.heading-11-oh {
+  width: 91.66%;
+  float: left;
+}
+.heading-12-oh {
+  width: 100%;
+  float: left;
+} */
+body {
+  background-color: #f6f6f6;
+  font: "Gilroy", sans-serif;
+}
+.order-history-oh {
+  padding-top: 41px;
+  padding-left: 48px;
+  /* width: 300px; */
+  height: 25px;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: left;
+  color: #282828;
+}
+.ongoing-order-oh {
+  padding-top: 48px;
+  padding-left: 48px;
+  width: auto;
+  height: 18px;
+  font-family: Gilroy;
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: 0.09px;
+  text-align: left;
+  color: #282828;
+}
+.line1-oh {
+  margin-top: 12px;
+  margin-left: 48.5px;
+  width: 576px;
+  height: 0;
+  border: solid 1px rgba(155, 155, 155, 0.4);
+}
+.order-oh {
+  margin-top: 36px;
+  margin-left: 48px;
+  width: 579px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px 0 rgba(45, 60, 70, 0.14);
+  background-color: #ffffff;
+}
+.car-logo-oh {
+  width: 57.1px;
+  height: 49.2px;
+  object-fit: contain;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 2px solid #e8e8e8;
+}
+.car-type-oh {
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: 325px;
+  height: 17px;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: #242a3c;
+}
+.date-oh {
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  margin-top: 6px;
+  width: 325px;
+  height: 15px;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: 0.07px;
+  text-align: left;
+  color: #9b9b9b;
+}
+.track-order-oh {
+  width: auto;
+  height: 17px;
+  min-width: 100px;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: #e73c33;
+}
+.line3-oh {
+  width: 578.5px;
+  height: 0;
+  opacity: 0.4;
+  border: solid 1px #b9c4c9;
+}
+.booking-id-oh {
+  width: auto;
+  height: 12px;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: #9b9b9b;
+}
+.booking-id-number-oh {
+  margin-top: 7px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: 12rem;
+  height: 17px;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: #282828;
+}
+.status-oh {
+  width: auto;
+  height: 12px;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: #9b9b9b;
+}
+.status-update-oh {
+  display: inline-block;
+  margin-top: 7px;
+  width: 250px;
+  height: auto;
+  min-height: 17px;
+  word-break: break-word;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: #282828;
+}
+.services-oh {
+  width: auto;
+  height: auto;
+  min-height: 17px;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.07px;
+  text-align: left;
+  color: rgba(40, 40, 40, 0.7);
+}
+.faq-oh {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  width: 250px;
+  height: 17px;
+  font-family: Gilroy;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: 0.09px;
+  text-align: left;
+  color: #282828;
+}
+.line2-oh {
+  margin-left: 75px;
+  margin-top: 12px;
+  width: 505px;
+  height: 0;
+  border: solid 1px rgba(155, 155, 155, 0.4);
+}
+.questions-oh {
+  border-radius: 6px;
+}
+.track-order-mob {
+  display: none;
+}
+.order-header-oh {
+  display: flex;
+  flex-direction: row;
+  height: 4.4rem;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 30px;
+  align-items: center;
+}
+.car-details-oh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.car-track-link-oh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.order-body-oh {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 10px;
+}
+.serviceshead-oh {
+  padding-top: 15px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,34 @@
+{
+  "address": [
+    {
+      "location": "Agra",
+      "city": "Agra",
+      "state": "UP"
+    },
+    {
+      "location": "Gurgaon",
+      "city": "Gurgaon",
+      "state": "Haryana"
+    },
+    {
+      "location": "Delhi",
+      "city": "Delhi",
+      "state": "Delhi"
+    },
+    {
+      "location": "UK",
+      "city": "UK",
+      "state": "UKH"
+    },
+    {
+      "location": "Punjab",
+      "city": "Jalandar",
+      "state": "Punjab"
+    },
+    {
+      "location": "Gurgaon",
+      "city": "Gurgaon",
+      "state": "Haryana"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "nigeria": [
+    {
+      "status": "Published",
+      "shop_code": "GMNG3",
+      "business_name": "GoMechanic45 - Gernkay Autohaven",
+      "address_line_1": "KM 15 Lekki-Epe Expressway, Lekki, Lagos",
+      "locality": "Lagos",
+      "administrative_area": "Lagos",
+      "country": "NG",
+      "postcode": "105102",
+      "map_link": "https://www.google.com/maps/place/GoMechanic45+-+Gernkay+Autohaven/@6.4386475,3.516893,15z/data=!3m1!4b1!4m5!3m4!1s0x103bf79348ce4245:0x90e0baef81c490cd!8m2!3d6.4386263!4d3.5256478",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-lekki-lagos"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMNG1",
+      "business_name": "GoMechanic45 - Autofit",
+      "address_line_1": "Ajiboye Road, Ojota 100242, Lagos, Nigeria",
+      "locality": "Lagos",
+      "administrative_area": "Lagos",
+      "country": "NG",
+      "postcode": "100242",
+      "map_link": "https://www.google.com/maps/place/GoMechanic45+-+Autofit/@6.584195,3.3811395,15z/data=!3m1!4b1!4m5!3m4!1s0x103b93bbbf39880b:0x65af87bb54042196!8m2!3d6.5841738!4d3.3898943",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-ojota-lagos"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMNG2",
+      "business_name": "GoMechanic45 - Douglas Honda Limited",
+      "address_line_1": "61/ 63 Adeniyi Jones Avenue",
+      "sub_locality": "Ikeja",
+      "locality": "Lagos",
+      "administrative_area": "Lagos",
+      "country": "NG",
+      "postcode": "100271",
+      "map_link": "https://www.google.com/maps/place/GoMechanic45+-+Douglas+Honda+Limited/@6.6114273,3.3365195,15z/data=!3m1!4b1!4m5!3m4!1s0x103b93d3d7bd9323:0x7c67a668c9c846ed!8m2!3d6.6114061!4d3.3452743",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-ikeja-lagos"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMNG5",
+      "business_name": "GoMechanic45 - Procuremax Autocare Services",
+      "address_line_1": "Plot 2018, Festac Access Road, (Beside Mobil Filling Station) Amuwo Odofin",
+      "locality": "Lagos",
+      "country": "NG",
+      "map_link": "https://www.google.com/maps/place/GoMechanic45+-+Procuremax+Autocare+Services/@6.4708241,3.2979321,15z/data=!3m1!4b1!4m5!3m4!1s0x103b892571b8bb7b:0x9cfcce91570edd7!8m2!3d6.4708029!4d3.3066869",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-amuwo-odofin-lagos"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMNG6",
+      "business_name": "GoMechanic45 - Acme",
+      "address_line_1": "Plot 8A, Block C, Ogba Industrial Scheme Estate",
+      "address_line_2": "Acme Road",
+      "address_line_3": "beside Mikano International Limited",
+      "sub_locality": "Ogba",
+      "locality": "Lagos",
+      "country": "NG",
+      "map_link": "https://www.google.com/maps/place/GoMechanic45+-+Acme/@6.6250426,3.3341117,15z/data=!3m1!4b1!4m5!3m4!1s0x103b93a02bb26163:0xbf37a50964191f75!8m2!3d6.6250214!4d3.3428665",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-ogba-lagos"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMNG4",
+      "business_name": "GoMechanic45 - Lagos",
+      "address_line_1": "4 Kafi Street",
+      "sub_locality": "Alausa",
+      "locality": "Ikeja",
+      "country": "NG",
+      "map_link": "https://www.google.com/maps/place/GoMechanic45+-+Lagos/@6.6116838,3.3496084,15z/data=!3m1!4b1!4m5!3m4!1s0x103b92fa1781b19f:0xb3f619aba5f584f1!8m2!3d6.6116626!4d3.3583632",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-alausa-ikeja"
+    }
+  ]
+}

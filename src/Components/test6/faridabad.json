@@ -1,0 +1,91 @@
+{
+  "faridabad": [
+    {
+      "status": "Published",
+      "shop_code": "GMF13",
+      "business_name": "GoMechanic - Aditya Motors",
+      "address_line_1": "Near R.L.I. Office, Sector 46, 47, Dividing Road, Opposite Sanskriti",
+      "address_line_2": "Apartment",
+      "address_line_3": "Part 3",
+      "locality": "Faridabad",
+      "administrative_area": "Haryana",
+      "country": "IN",
+      "postcode": "121001",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Aditya+Motors/@28.4404081,77.2959104,17z/data=!3m1!4b1!4m5!3m4!1s0x390cddfa3a18bd67:0xf229a62c4e28ab4b!8m2!3d28.4404081!4d77.2959104",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-sector-46-faridabad"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMF8",
+      "business_name": "GoMechanic - Saraswati Automobile",
+      "address_line_1": "44, Bangla Plot",
+      "address_line_2": "Neelam Bata Road",
+      "address_line_3": "near Hotel Rajmandir",
+      "address_line_4": "AC Nagar, New Industrial Town",
+      "locality": "Faridabad",
+      "administrative_area": "Haryana",
+      "country": "IN",
+      "postcode": "121001",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Saraswati+Automobile/@28.3856626,77.307455,17z/data=!3m1!4b1!4m5!3m4!1s0x390cdd6973699809:0xd088fca2de190d7d!8m2!3d28.3856626!4d77.307455",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-neelam-bata-road-faridabad"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMF1",
+      "business_name": "GoMechanic - Sapphire Autoworld",
+      "address_line_1": "Mawai Rd, Jeevan Nagar, Sector 87, Neharpar",
+      "locality": "Faridabad",
+      "administrative_area": "Haryana",
+      "country": "IN",
+      "postcode": "121002",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Sapphire+Autoworld/@28.4366807,77.3274547,17z/data=!3m1!4b1!4m5!3m4!1s0x390cdd6350a40aab:0x9f6e4e2d25f1aa12!8m2!3d28.4366807!4d77.3274547",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-jeevan-nagar-faridabad"
+    },
+    {
+      "status": "Suspended",
+      "business_name": "Radiant Car Services",
+      "address_line_1": "Ankhir Pali Road,opposite Sector 21D,Labour Chowk",
+      "locality": "Faridabad",
+      "administrative_area": "Haryana",
+      "country": "IN",
+      "postcode": "121001"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMF31",
+      "business_name": "GoMechanic - Car Care Centre",
+      "address_line_1": "Jeevan Nagar, Sector 87, Neharpar Faridabad",
+      "locality": "Faridabad",
+      "administrative_area": "Haryana",
+      "country": "IN",
+      "postcode": "121002",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Car+Care+Centre/@13.0380808,80.1951365,10z/data=!4m5!3m4!1s0x390cdd6d37da0f21:0x761506cedd2a995f!8m2!3d28.4294753!4d77.3453898",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-sector-87-faridabad"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMF15",
+      "business_name": "GoMechanic - Car Care Centre",
+      "address_line_1": "Wazirpur Road",
+      "address_line_2": "Jeevan Nagar, Sector 87, Neharpar Faridabad",
+      "locality": "Faridabad",
+      "administrative_area": "Haryana",
+      "country": "IN",
+      "postcode": "121002",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Car+Care+Centre/@28.4288664,77.3453017,17z/data=!3m1!4b1!4m5!3m4!1s0x390cdd2b67466c05:0x22130208fce6a167!8m2!3d28.4288664!4d77.3453017",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-wazirpur-faridabad"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMF9",
+      "business_name": "GoMechanic - My Shop Automobile",
+      "address_line_1": "By Pass Road, Near Rama Door, Opposite CNG Pump, Sector 9",
+      "locality": "Faridabad",
+      "administrative_area": "Haryana",
+      "country": "IN",
+      "postcode": "121006",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+My+Shop+Automobile/@28.37951,77.3378339,17z/data=!3m1!4b1!4m5!3m4!1s0x390cdd3186568079:0xcb28c5aea338ba54!8m2!3d28.37951!4d77.3378339",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-sector-9-faridabad"
+    }
+  ]
+}

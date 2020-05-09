@@ -1,0 +1,127 @@
+{
+  "jaipur": [
+    {
+      "status": "Published",
+      "shop_code": "GMJ5",
+      "business_name": "GoMechanic - Ambience Auto Service",
+      "address_line_1": "Plot No.161, Unit No.9, Sirsi Road, Anand Nagar",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302012",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Ambience+Auto+Service/@26.9215906,75.730672,17z/data=!3m1!4b1!4m5!3m4!1s0x396db33f8f8fb329:0x4762b394406b815f!8m2!3d26.9215906!4d75.730672",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-anand-nagar-jaipur"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMJ4",
+      "business_name": "GoMechanic - Mahi Motor",
+      "address_line_1": "194-B, Padmawati Colony, Nirman Nagar, P",
+      "address_line_2": "Pandit TN Mishra Marg",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302019",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Mahi+Motor/@26.8820026,75.7554505,17z/data=!3m1!4b1!4m5!3m4!1s0x396db54c1f62dd95:0x7a58089c4bb313c2!8m2!3d26.8820026!4d75.7554505",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-mishra-marg-jaipur"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMJ3",
+      "business_name": "GoMechanic - Narain Motors",
+      "address_line_1": "Lalarpura road, Gandhi Path West Vaishali Nagar",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302034",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Narain+Motors/@26.9023104,75.7131159,17z/data=!3m1!4b1!4m5!3m4!1s0x396c4b2456acd86f:0xd54510b631584448!8m2!3d26.9023104!4d75.7131159",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-vaishali-nagar-jaipur"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMJ1",
+      "business_name": "GoMechanic - New Alpha Automobiles",
+      "address_line_1": "267/4, Raja Park, Near Sideshwar Mandir",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302004",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+New+Alpha+Automobiles/@26.8923765,75.8308061,17z/data=!3m1!4b1!4m5!3m4!1s0x396db7d1905a9bcd:0x3477e0fa4ed8d737!8m2!3d26.8923765!4d75.8308061",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-raja-park-jaipur"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMJ2",
+      "business_name": "GoMechanic - Nation Car Point",
+      "address_line_1": "C-210 Hanuman Nagar, Gautam Marg Vaishali Nagar",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302021",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Nation+Car+Point/@26.9192245,75.7437021,17z/data=!3m1!4b1!4m5!3m4!1s0x396db312d7a0227d:0x8c53c658d9a87c3!8m2!3d26.9192245!4d75.7437021",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-hanuman-nagar-jaipur"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMJ0",
+      "business_name": "GoMechanic - Jaipur HQ",
+      "address_line_1": "Sudarshanpura, 21, First Floor, Bais Godam",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302015",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Jaipur+HQ/@26.8996563,75.7908041,17z/data=!3m1!4b1!4m5!3m4!1s0x396db1364ed2d319:0x41542f4d7bea4440!8m2!3d26.8996563!4d75.7908041",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-bais-godam-jaipur"
+    },
+    {
+      "status": "Missing shop code",
+      "business_name": "GoMechanic - Car Care",
+      "address_line_1": "Girdhar Marg",
+      "address_line_2": "Siddharth Nagar, Sector 9, Malviya Nagar",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302017",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Car+Care/@26.8503045,75.8103781,17z/data=!3m1!4b1!4m5!3m4!1s0x396db7426feba6c1:0xb6582cc52ab70868!8m2!3d26.8503045!4d75.8103781",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-malviya-nagar-jaipur"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMJ6",
+      "business_name": "GoMechanic - Sharp Motors",
+      "address_line_1": "Gopalpura Mode, Milap Nagar J-3, Himmat Nagar",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302018",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Sharp+Motors/@26.8640812,75.7964083,17z/data=!3m1!4b1!4m5!3m4!1s0x396db5d7be4d18a7:0x5b94966e39ece583!8m2!3d26.8640812!4d75.7964083",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-himmat-nagar-jaipur"
+    },
+    {
+      "status": "Published",
+      "shop_code": "GMJ7",
+      "business_name": "GoMechanic - Nation Car Point",
+      "address_line_1": "C-210 hanuman nagar, gautam marg",
+      "address_line_2": "Vaishali nagar",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302021",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Nation+Car+Point/@26.9192318,75.7436412,17z/data=!3m1!4b1!4m5!3m4!1s0x396db384c323090b:0x65d49d3de22380f1!8m2!3d26.9192318!4d75.7436412",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-gautam-nagar-jaipur"
+    },
+    {
+      "status": "Missing shop code",
+      "business_name": "GoMechanic - Narain motors",
+      "address_line_1": "Lalarpura road",
+      "address_line_2": "Gandhi Path West",
+      "address_line_3": "Vaishali Nagar",
+      "locality": "Jaipur",
+      "administrative_area": "Rajasthan",
+      "country": "IN",
+      "postcode": "302034",
+      "map_link": "https://www.google.co.in/maps/place/GoMechanic+-+Narain+Motors/@26.9023104,75.7131159,17z/data=!3m1!4b1!4m5!3m4!1s0x396c4b2456acd86f:0xd54510b631584448!8m2!3d26.9023104!4d75.7131159",
+      "local_store_urls": "https://gomechanic.in/stores/car-service-center-in-lalarpura-vaishali-nagar-jaipur"
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+.spareFullBack {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background-color: #f6f6f6;
+}
+
+.spareWidth {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.flexspare {
+  display: flex;
+  flex-direction: row;
+}
+
+.spareContentFirst {
+  width: 28%;
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+
+.spareContentSecond {
+  width: 100%;
+  min-width: 70%;
+  height: auto;
+  background-color: #fff;
+  margin-left: 2%;
+  margin-bottom: 2rem;
+}
+
+/* .imgUserSpare {
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #c6c6c6;
+} */
+
+/* .spareUserLogo {
+  width: 100%;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding: 16px;
+} */
+
+.justifyflexspare {
+  justify-content: center;
+}
+
+.selectTag {
+  border: 2px solid #d7d7d7;
+  width: 110px;
+  height: 30px;
+  border-radius: 15px;
+  background: transparent;
+  color: #7b7777;
+  outline: none;
+}
+
+.listBlockEnd {
+  cursor: pointer;
+  border-block-end: 1px solid #e0dfe0;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+.aTagSpare {
+  /* color: #9e9e9e; */
+  color: black;
+  text-decoration: none;
+}
+
+.active,
+.aTagSpare:hover {
+  font-weight: bold;
+}
+
+/* ----------------------------------------------------------- */
+
+.spareOrderTop {
+  background-color: #ebebeb;
+  height: auto;
+  padding: 1rem;
+  padding-bottom: 0.7rem;
+}
+
+.orderNumberSpare {
+  padding-bottom: 0.7rem;
+
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #282828;
+}
+
+.placedOrderSpare {
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #282828;
+}
+
+.paddingOneOneremSpare {
+  padding-top: 1.12rem;
+  padding-left: 1.12rem;
+  padding-right: 0.625rem;
+  padding-bottom: 1rem;
+}
+
+.boxOrderSpare {
+  width: 4.18rem;
+  height: 3.85rem;
+  background-color: rgba(155, 155, 155, 0.2);
+}
+
+.flexcolspare {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterSpare {
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.partBrandSpare {
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: 0.11px;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+.invoiceSpare {
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #ffac27;
+  cursor: pointer;
+}
+
+.detailButton {
+  /* font-family: Gilroy; */
+  width: 8rem;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: 0.14px;
+  text-align: center;
+  color: #4a4a4a;
+  font-family: sans-serif;
+  cursor: pointer;
+  height: 1rem;
+  padding: 0.4rem;
+  border: 1px solid #b2babb;
+}
+
+.cancelButton {
+  /* font-family: Gilroy; */
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #4a4a4a;
+  font-family: sans-serif;
+  cursor: pointer;
+  height: 1rem;
+  padding: 0.4rem;
+  border: 1px solid #b2babb;
+}
+
+.returnSpare {
+  margin-left: 1.25rem;
+
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #088afa;
+  cursor: pointer;
+}
+
+.paddingOneremSpare {
+  /* margin-top: 1rem; */
+  margin-top: 0.5rem;
+  margin-left: 5.93rem;
+}
+
+.unitPriceSpares {
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+.freeSpares {
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.trackingInformationSpare {
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: 0.11px;
+  text-align: left;
+  color: #088afa;
+}
+
+/* Tracking */
+ul.prog {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.prog li {
+  display: inline-block;
+  text-align: center;
+}
+
+ul.prog li.progDone {
+  color: #fff;
+
+  /* border-bottom: 4px solid #9b9b9b; */
+  border-bottom: 2px solid green;
+
+  /* new */
+  width: 10rem;
+}
+
+ul.prog li.progInPogress {
+  color: #fff;
+
+  /* border-bottom: 4px solid #9b9b9b; */
+  border-bottom: 2px solid #9b9b9b;
+
+  /* new */
+  width: 10rem;
+}
+
+ul.prog li.progCurrent {
+  color: #fff;
+
+  /* border-bottom: 4px solid #9b9b9b; */
+  border-bottom: 2px solid #9b9b9b;
+
+  /* new */
+  width: 10rem;
+}
+
+ul.prog li.progEnd {
+  border-bottom: 0 !important;
+}
+
+ul.prog li::before {
+  position: relative;
+  bottom: -1rem;
+  float: left;
+}
+
+ul.prog li.progDone::before {
+  content: " \25CF";
+
+  /* background-color: #9b9b9b; */
+  background-color: green;
+  font-size: 0.5rem;
+  height: 2.2em;
+  width: 2.2em;
+  line-height: 2.2em;
+  border: none;
+  border-radius: 2.2em;
+}
+
+ul.prog li.progInPogress::before {
+  content: " \25CF";
+
+  /* background-color: #9b9b9b; */
+  background-color: #9b9b9b;
+  font-size: 0.5rem;
+  height: 2.2em;
+  width: 2.2em;
+  line-height: 2.2em;
+  border: none;
+  border-radius: 2.2em;
+}
+
+ul.prog li.progCurrent::before {
+  content: " \25CF";
+
+  /* background-color: #9b9b9b; */
+  background-color: orange;
+  font-size: 0.5rem;
+  height: 2.2em;
+  width: 2.2em;
+  line-height: 2.2em;
+  border: none;
+  border-radius: 2.2em;
+}
+
+.placedOnSpare {
+  /* font-family: Gilroy; */
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: 0.09px;
+  text-align: left;
+  color: #9b9b9b;
+
+  /* new */
+  margin-left: -120px;
+}
+
+.paddingLeftZEFrem {
+  padding-left: 0.85rem;
+}
+
+.paddingLeftOFrem {
+  padding-left: 1.5rem;
+}
+
+.paddingLeftOTrem {
+  padding-left: 1.25rem;
+}
+
+.paddingRightOESrem {
+  padding-right: 1.87rem;
+}
+
+.listOrder {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 2rem;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.9;
+  letter-spacing: 0.09px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/* New CSS 6 May 2020 */
+.imgUserSpare {
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #c6c6c6;
+}
+.spareUserLogo {
+  padding: 16px;
+}
+.workshopNameSpare {
+  width: auto;
+  height: auto;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a73e8;
+}
+.cityNameSpare {
+  width: 56px;
+  height: auto;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9b9b;
+}
+.silverSpare {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(108, 108, 108, 0.7);
+}
+.billingspare {
+  width: 100%;
+  height: 12px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(108, 108, 108, 0.7);
+}
+.amountspare {
+  padding-top: 0.5rem;
+  width: 120px;
+  height: 22px;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6c6c6c;
+}
+.progressbarspare {
+  border: 1px solid;
+  width: 98%;
+  height: 10px;
+  border-radius: 17px;
+  background-color: rgba(108, 108, 108, 0.11);
+}
+.progressLineSpare {
+  background-color: #08d508;
+  height: 10px;
+  border-radius: 17px;
+}
+.Getcashback {
+  padding-top: 0.5rem;
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(108, 108, 108, 0.7);
+}
+.Seeallbenefits {
+  padding-top: 0.5rem;
+  width: 100px;
+  height: 14px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(108, 108, 108, 0.7);
+}
+.Cashbackspare {
+  padding-top: 2rem;
+  width: 100%;
+  height: 14px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(108, 108, 108, 0.7);
+}
+.cashbackamountspare {
+  padding-top: 0.5rem;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6c6c6c;
+}
+.Viewhistoryspare {
+  padding-top: 0.5rem;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6c6c6c;
+  cursor: pointer;
+}

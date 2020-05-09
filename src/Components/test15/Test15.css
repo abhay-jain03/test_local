@@ -1,0 +1,91 @@
+.bgcolor {
+  background-color: #f6f6f6;
+  height: 100%;
+  padding-bottom: 5rem;
+}
+.flexmembership {
+  display: flex;
+  flex-direction: row;
+}
+.width60member {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2.1875rem;
+}
+.monthbilling {
+  width: 114px;
+  height: 14px;
+  object-fit: contain;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(108, 108, 108, 0.7);
+}
+.Rectangle963 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;
+  height: 301px;
+  object-fit: contain;
+  border-radius: 4px;
+  background-image: linear-gradient(36deg, #a6a4a9 1%, #74cce9);
+}
+.Rectangle964 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;
+  height: 301px;
+  object-fit: contain;
+  border-radius: 4px;
+  background-image: linear-gradient(36deg, #d38637 -18%, #ffe04d);
+}
+.Rectangle965 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;
+  height: 301px;
+  object-fit: contain;
+  border-radius: 4px;
+  background-image: linear-gradient(35deg, #bebebe 52%, #f5fdff 99%);
+}
+.Path8875 {
+  width: 180px;
+  height: 85.2px;
+  margin-top: -2rem;
+  margin-left: 1.25rem;
+}
+.Rectangle966 {
+  width: 113px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 22px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+}
+
+.cdf {
+  position: absolute;
+  margin-left: 5.5rem;
+}
+.ert {
+  position: absolute;
+  margin-top: 0.6rem;
+  margin-left: 0.8rem;
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
