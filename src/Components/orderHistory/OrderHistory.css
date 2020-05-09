@@ -1,52 +1,51 @@
-/* .heading-1-oh {
+.heading-1 {
   width: 8.33%;
   float: left;
 }
-.heading-2-oh {
+.heading-2 {
   width: 16.66%;
   float: left;
 }
-.heading-3-oh {
+.heading-3 {
   width: 25%;
   float: left;
 }
-.heading-4-oh {
+.heading-4 {
   width: 33.33%;
   float: left;
 }
-.heading-5-oh {
+.heading-5 {
   width: 41.66%;
   float: left;
 }
-.heading-6-oh {
+.heading-6 {
   width: 50%;
   float: left;
 }
-.heading-7-oh {
+.heading-7 {
   width: 58.33%;
   float: left;
 }
-
-.heading-8-oh {
+.heading-8 {
   width: 66.66%;
   float: left;
 }
-.heading-9-oh {
+.heading-9 {
   width: 75%;
   float: left;
 }
-.heading-10-oh {
+.heading-10 {
   width: 83.33%;
   float: left;
 }
-.heading-11-oh {
+.heading-11 {
   width: 91.66%;
   float: left;
 }
-.heading-12-oh {
+.heading-12 {
   width: 100%;
   float: left;
-} */
+}
 body {
   background-color: #f6f6f6;
   font: "Gilroy", sans-serif;
