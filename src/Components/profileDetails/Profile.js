@@ -4,6 +4,7 @@ import "./profileDetails.css";
 import "./Responsive.css";
 // import classNames from "classnames";
 // import useStyles from "isomorphic-style-loader/useStyles";
+import MyCommission from "./MyCommission";
 
 const Profile = () => {
   // useStyles(s);
@@ -88,12 +89,20 @@ const Profile = () => {
                   >
                     <span className="RETAILERS">My Retailers</span>
                   </div>
+                  <div
+                    className="flexspare listBlockEnd"
+                    onClick={() => setTab("MyCommission")}
+                  >
+                    <span className="RETAILERS">My Commission</span>
+                  </div>
                   <div className="flexspare listBlockEnd">
                     <span>Logout</span>
                   </div>
                 </div>
               </div>
-              <div className="spareContentSecond">ved</div>
+              <div className="spareContentSecond">
+                <MyCommission />
+              </div>
             </div>
           </div>
         </div>

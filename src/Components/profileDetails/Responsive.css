@@ -52,6 +52,40 @@
   .paddingRightOESrem {
     padding-right: 0;
   }
+  /* --------------------------- */
+  .cart225rem {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartmyCommission2 {
+    margin-top: 1rem;
+  }
+  .cartmyCommission3 {
+    margin-top: 1rem;
+  }
+  .autoparts {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    width: 200px;
+  }
+  .totalautoparts {
+    font-size: 15px;
+  }
+  .gridspare {
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+    height: 3rem;
+  }
+  .brandtablecommission {
+    font-size: 12px;
+  }
+  .orderidcommission {
+    font-size: 12px;
+  }
+  .orderamountcommission {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 400px) and (min-width: 375px) {
@@ -108,6 +142,40 @@
   .paddingRightOESrem {
     padding-right: 0;
   }
+  /* --------------------------- */
+  .cart225rem {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartmyCommission2 {
+    margin-top: 1rem;
+  }
+  .cartmyCommission3 {
+    margin-top: 1rem;
+  }
+  .autoparts {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    width: 200px;
+  }
+  .totalautoparts {
+    font-size: 15px;
+  }
+  .gridspare {
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+    height: 3rem;
+  }
+  .brandtablecommission {
+    font-size: 12px;
+  }
+  .orderidcommission {
+    font-size: 12px;
+  }
+  .orderamountcommission {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 450px) and (min-width: 410px) {
@@ -160,6 +228,40 @@
 
   .paddingRightOESrem {
     padding-right: 0;
+  }
+  /* --------------------------- */
+  .cart225rem {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartmyCommission2 {
+    margin-top: 1rem;
+  }
+  .cartmyCommission3 {
+    margin-top: 1rem;
+  }
+  .autoparts {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    width: 200px;
+  }
+  .totalautoparts {
+    font-size: 15px;
+  }
+  .gridspare {
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+    height: 3rem;
+  }
+  .brandtablecommission {
+    font-size: 12px;
+  }
+  .orderidcommission {
+    font-size: 12px;
+  }
+  .orderamountcommission {
+    font-size: 12px;
   }
 }
 
@@ -216,5 +318,39 @@
 
   .paddingRightOESrem {
     padding-right: 0;
+  }
+  /* --------------------------- */
+  .cart225rem {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartmyCommission2 {
+    margin-top: 1rem;
+  }
+  .cartmyCommission3 {
+    margin-top: 1rem;
+  }
+  .autoparts {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    width: 200px;
+  }
+  .totalautoparts {
+    font-size: 15px;
+  }
+  .gridspare {
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+    height: 3rem;
+  }
+  .brandtablecommission {
+    font-size: 12px;
+  }
+  .orderidcommission {
+    font-size: 12px;
+  }
+  .orderamountcommission {
+    font-size: 12px;
   }
 }
