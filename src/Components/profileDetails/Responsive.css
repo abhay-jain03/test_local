@@ -52,7 +52,7 @@
   .paddingRightOESrem {
     padding-right: 0;
   }
-  /* --------------------------- */
+  /* ----------Commission----------------- */
   .cart225rem {
     flex-direction: column;
     align-items: center;
@@ -85,6 +85,54 @@
   }
   .orderamountcommission {
     font-size: 12px;
+  }
+  /* ------------------------------Retail---------------------- */
+  .gridheaderretail {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: 0.5fr 1fr 1fr;
+  }
+  .locationheadretail {
+    grid-template-columns: 1fr 1fr;
+  }
+  .RetailDiscounthead {
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+  }
+  .RetailerDiscount {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
+  .Rectangle300retail {
+    width: 205px;
+  }
+  .thheade,
+  th,
+  td {
+    width: 100%;
+  }
+  .BACKretail {
+    font-size: 12px;
+  }
+  .rewardlogoretail {
+    width: 40px;
+    height: 40px;
+  }
+  .Automobileretail {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+  }
+  .Createdonretail {
+    font-size: 12px;
+    grid-column-end: -1;
+    text-align: right;
   }
 }
 
@@ -176,6 +224,54 @@
   .orderamountcommission {
     font-size: 12px;
   }
+  /* ------------------------------Retail---------------------- */
+  .gridheaderretail {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: 0.5fr 1fr 1fr;
+  }
+  .locationheadretail {
+    grid-template-columns: 1fr 1fr;
+  }
+  .RetailDiscounthead {
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+  }
+  .RetailerDiscount {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
+  .Rectangle300retail {
+    width: 205px;
+  }
+  .thheade,
+  th,
+  td {
+    width: 100%;
+  }
+  .BACKretail {
+    font-size: 12px;
+  }
+  .rewardlogoretail {
+    width: 40px;
+    height: 40px;
+  }
+  .Automobileretail {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+  }
+  .Createdonretail {
+    font-size: 12px;
+    grid-column-end: -1;
+    text-align: right;
+  }
 }
 
 @media screen and (max-width: 450px) and (min-width: 410px) {
@@ -262,6 +358,54 @@
   }
   .orderamountcommission {
     font-size: 12px;
+  }
+  /* ------------------------------Retail---------------------- */
+  .gridheaderretail {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: 0.5fr 1fr 1fr;
+  }
+  .locationheadretail {
+    grid-template-columns: 1fr 1fr;
+  }
+  .RetailDiscounthead {
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+  }
+  .RetailerDiscount {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
+  .Rectangle300retail {
+    width: 205px;
+  }
+  .thheade,
+  th,
+  td {
+    width: 100%;
+  }
+  .BACKretail {
+    font-size: 12px;
+  }
+  .rewardlogoretail {
+    width: 40px;
+    height: 40px;
+  }
+  .Automobileretail {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+  }
+  .Createdonretail {
+    font-size: 12px;
+    grid-column-end: -1;
+    text-align: right;
   }
 }
 
@@ -352,5 +496,53 @@
   }
   .orderamountcommission {
     font-size: 12px;
+  }
+  /* ------------------------------Retail---------------------- */
+  .gridheaderretail {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: 0.5fr 1fr 1fr;
+  }
+  .locationheadretail {
+    grid-template-columns: 1fr 1fr;
+  }
+  .RetailDiscounthead {
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+  }
+  .RetailerDiscount {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
+  .Rectangle300retail {
+    width: 205px;
+  }
+  .thheade,
+  th,
+  td {
+    width: 100%;
+  }
+  .BACKretail {
+    font-size: 12px;
+  }
+  .rewardlogoretail {
+    width: 40px;
+    height: 40px;
+  }
+  .Automobileretail {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+  }
+  .Createdonretail {
+    font-size: 12px;
+    grid-column-end: -1;
+    text-align: right;
   }
 }

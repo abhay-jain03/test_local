@@ -1,0 +1,155 @@
+.payment-modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.payment-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 56%;
+  padding-top: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.payment-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -6px;
+}
+.payment-close:hover,
+.payment-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.payment-header-text {
+  width: 180px;
+  height: 22px;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #282828;
+}
+.flex-row-pay {
+  display: flex;
+  flex-direction: row;
+}
+.width-50 {
+  width: 50%;
+}
+.payment-order {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: 0.13px;
+  text-align: left;
+  color: #4a4a4a;
+}
+.payment-order-id {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: 0.08px;
+  text-align: left;
+  color: #282828;
+}
+.table-payment {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+.date-payment {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.13px;
+  color: #4a4a4a;
+}
+.date-text-payment {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: 0.13px;
+  color: #282828;
+  text-align: center;
+}
+.success-payment {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: 0.13px;
+  text-align: center;
+  color: #1daf65;
+}
+/* .failed-payment {
+  color: #e73c33;
+} */
+.Shape-download-payment {
+  width: 16.5px;
+  height: 16.5px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.mob-table-payment {
+  display: none;
+}
+
+.tableScroll-pay {
+  margin-top: 1.3rem;
+}
+
+.width70mobpayment {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.download-mobreceipt {
+  width: 100%;
+  height: 28%;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.table-payment tbody {
+  display: block;
+  max-height: 9.5rem;
+  overflow-y: scroll;
+}
+
+.table-payment thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
