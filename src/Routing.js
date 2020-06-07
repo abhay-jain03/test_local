@@ -55,7 +55,7 @@ const RoutingComponent = (props) => {
           <Route exact path="/member" component={Test15} />
           <Route exact path="/order" component={Order} />
           {/* <Route exact path="/spares" component={Spare} /> */}
-          <Route exact path="/Test2" />
+          <Route exact path="/Test2" component={Test2} />
           <Route exact path="/Test12" component={Test12} />
           {/* <Route exact path="/" component={Test2} /> */}
           <Route exact path="/spares" component={Spare} />
