@@ -40,12 +40,14 @@ const OrderHistory = lazy(() =>
 const Retail = lazy(() => import("./Components/retail/Retailer"));
 const Search = lazy(() => import("./Components/search/Search"));
 const ReactLearn = lazy(() => import("./Components/reactLearn/ReactLearn"));
+const Carousel = lazy(() => import("./Components/carousel/Carousel"));
 
 const RoutingComponent = (props) => {
   return (
     <Suspense fallback={<div></div>}>
       <Router>
         <Switch>
+          <Route exact path="/carousel" component={Carousel} />
           <Route exact path="/learn" component={ReactLearn} />
           <Route exact path="/search" component={Search} />
           <Route exact path="/retail" component={Retail} />
@@ -54,7 +56,6 @@ const RoutingComponent = (props) => {
           <Route exact path="/pro" component={Profile} />
           <Route exact path="/member" component={Test15} />
           <Route exact path="/order" component={Order} />
-          {/* <Route exact path="/spares" component={Spare} /> */}
           <Route exact path="/Test2" component={Test2} />
           <Route exact path="/Test12" component={Test12} />
           {/* <Route exact path="/" component={Test2} /> */}
