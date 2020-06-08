@@ -40,12 +40,14 @@ const OrderHistory = lazy(() =>
 const Retail = lazy(() => import("./Components/retail/Retailer"));
 const Search = lazy(() => import("./Components/search/Search"));
 const ReactLearn = lazy(() => import("./Components/reactLearn/ReactLearn"));
+const CartAddress = lazy(() => import("./Components/cartAddress/CartAddress"));
 
 const RoutingComponent = (props) => {
   return (
     <Suspense fallback={<div></div>}>
       <Router>
         <Switch>
+          <Route exact path="/cart" component={CartAddress} />
           <Route exact path="/learn" component={ReactLearn} />
           <Route exact path="/search" component={Search} />
           <Route exact path="/retail" component={Retail} />
