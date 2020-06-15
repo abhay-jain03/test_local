@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./Tabs.css";
 
 export default function Tabs() {
-  const [Border, setBorder] = useState(true);
-  const [tab, setTab] = useState(true);
+  const [active, setActive] = useState(false);
+  const [tab, setTab] = useState(false);
 
-  function openCity(event, productName) {
-    setTab(true);
-    let pro = String(event.target.value);
+  function openCity(event) {
+    var pro = String(event.target.getAttribute("value"));
     alert(pro);
+    setActive(true);
+    setTab(true);
   }
 
   const aware = [
@@ -25,18 +26,20 @@ export default function Tabs() {
   const Taware = aware.map((items) => {
     return (
       <div>
-        {tab == true ? (
-          <a
-            className="anctag"
-            href="javascript:void(0)"
+        <a className="anctag" href="javascript:void(0)">
+          <div
             value={items}
-            onClick={(event) => openCity(event, { items })}
+            onClick={(event) => openCity(event)}
+            // className="paddingText tablink borderBottom"
+            className={
+              tab == true
+                ? "borderBottom1 paddingText tablink"
+                : "borderBottom paddingText tablink"
+            }
           >
-            <div className="borderBottom paddingText tablink">{items}</div>
-          </a>
-        ) : (
-          " "
-        )}
+            {items}
+          </div>
+        </a>
       </div>
     );
   });
@@ -46,6 +49,7 @@ export default function Tabs() {
       <h1>Tabs</h1>
 
       <div className="singleLine">{Taware}</div>
+      {active == true ? <h1>Abhay</h1> : ""}
     </>
   );
 }
