@@ -19,3 +19,7 @@
 .borderBottom1 {
   border-bottom: 5px solid #f44336;
 }
+
+.tab button.active {
+  border-bottom: 5px solid #000;
+}
