@@ -1,8 +1,6 @@
 .flexMail {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  width: 100%;
 }
 .trackButton {
   background-color: red;
@@ -36,4 +34,20 @@
 
 .tdborder {
   border: 1px solid #dddddd;
+}
+
+.MailFlex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.rightBorder {
+  border-right: 1px solid #d4cfcf;
+}
+.car {
+  color: #aaacb2;
+}
+.carName {
+  color: #4a4e5e;
 }

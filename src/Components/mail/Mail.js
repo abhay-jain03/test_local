@@ -5,99 +5,130 @@ export default function Mail() {
   return (
     <>
       <div style={{ padding: "0rem 5rem" }}>
-        <div className="flexMail">
-          <img
-            style={{ height: "6rem" }}
-            src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/GoMechanic.png"
-          />
-          <img
-            style={{ width: "100%", height: "10rem" }}
-            src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/Estimate.jpg"
-          />
-          <img
-            style={{ width: "50%" }}
-            src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/orderConfirmed.png"
-          />
-        </div>
+        <table className="flexMail">
+          <tr>
+            <td>
+              <img
+                style={{ height: "6rem" }}
+                src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/GoMechanic.png"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                style={{ width: "100%", height: "10rem" }}
+                src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/Estimate.jpg"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                style={{ width: "50%" }}
+                src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/orderConfirmed.png"
+              />
+            </td>
+          </tr>
+        </table>
 
-        <div>
-          <p>Hi Test</p>
-          <div>Please find a work estimate attached for your car</div>
-          <p>In the meantime, you can track your order below.</p>
-          <p>Give our love to your car :-) GoMechanic</p>
-        </div>
+        <table>
+          <tr>
+            <td>Hi Test</td>
+          </tr>
+          <tr>
+            <td>Please find a work estimate attached for your car</td>
+          </tr>
+          <tr>
+            <td>In the meantime, you can track your order below.</td>
+          </tr>
+          <tr>
+            <td>Give our love to your car :-) GoMechanic</td>
+          </tr>
+        </table>
 
         <hr style={{ border: "1.25px solid red", margin: "2rem 0px" }} />
 
-        <div className="flexMail">
-          <button className="trackButton">TRACK ORDER</button>
-        </div>
+        <table className="flexMail">
+          <tr>
+            <td>
+              <button className="trackButton">TRACK ORDER</button>
+            </td>
+          </tr>
+        </table>
 
         <br />
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            gridGap: "15px",
-          }}
-        >
-          <table style={{ border: "1px solid" }}>
-            <tr className="table1">
-              <th colSpan="2">Here are your order details</th>
+        <table>
+          <tr>
+            <td>Your Order Details</td>
+          </tr>
+          <tr>
+            <td>Order no: 20200622928356481</td>
+          </tr>
+        </table>
+
+        <br />
+
+        <div className="MailFlex">
+          <table className="rightBorder">
+            <tr>
+              <td>
+                <h1>Car Details</h1>
+              </td>
             </tr>
             <tr>
-              <td className="tdborder">Booking ID</td>
-              <td className="tdborder">20200603912065465</td>
+              <td>
+                <span className="car">Car :</span>
+                <span className="carName">
+                  Maruti Suzuki Swift Dzire Petrol
+                </span>
+              </td>
             </tr>
             <tr>
-              <td className="tdborder">Car Brand</td>
-              <td className="tdborder">Tata</td>
+              <td>
+                <span className="car">Date :</span>
+                <span className="carName">Tue, 2020-06-23 10AM - 12PM</span>
+              </td>
             </tr>
             <tr>
-              <td className="tdborder">Car Model</td>
-              <td className="tdborder">Tiago Diesel</td>
+              <td>
+                <span className="car">Registration no :</span>
+                <span className="carName">TTIAGOD9779923235</span>
+              </td>
             </tr>
             <tr>
-              <td className="tdborder">Registration no</td>
-              <td className="tdborder">TTIAGOD9779923235</td>
-            </tr>
-            <tr>
-              <td className="tdborder">Odometer Reading(Km)</td>
-              <td className="tdborder">0</td>
-            </tr>
-            <tr>
-              <td className="tdborder">Date</td>
-              <td className="tdborder">June 3, 2020</td>
-            </tr>
-            <tr>
-              <td className="tdborder">Time</td>
-              <td className="tdborder">23:31</td>
+              <td>
+                <span className="car">Odometer Reading(Km) :</span>
+                <span className="carName">0</span>
+              </td>
             </tr>
           </table>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 3fr" }}>
-            <img
-              style={{ height: "6rem", width: "8rem" }}
-              src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/unnamed2.jpg"
-            />
-            <table style={{ border: "1px solid" }}>
-              <tr className="table1">
-                <th colSpan="2">Customer Executive on Duty</th>
-              </tr>
-              <tr>
-                <td className="tdborder">Name</td>
-                <td className="tdborder">jassi test LM</td>
-              </tr>
-              <tr>
-                <td className="tdborder">Mobile</td>
-                <td className="tdborder">5674893212</td>
-              </tr>
-              <tr>
-                <td className="tdborder">Email</td>
-                <td className="tdborder">jsk@gmail.com</td>
-              </tr>
-            </table>
-          </div>
+          <table>
+            <tr>
+              <td>
+                <h1>Customer Executive on Duty</h1>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span className="car">Name :</span>
+                <span className="carName">jassi test LM</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span className="car">Mobile :</span>
+                <span className="carName">5674893212</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span className="car">Email :</span>
+                <span className="carName">jsk@gmail.com</span>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     </>
