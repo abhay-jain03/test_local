@@ -43,12 +43,14 @@ const ReactLearn = lazy(() => import("./Components/reactLearn/ReactLearn"));
 const CartAddress = lazy(() => import("./Components/cartAddress/CartAddress"));
 const Carousel = lazy(() => import("./Components/carousel/Carousel"));
 const Tabs = lazy(() => import("./Components/tabs/Tabs"));
+const Mail = lazy(() => import("./Components/mail/Mail"));
 
 const RoutingComponent = (props) => {
   return (
     <Suspense fallback={<div></div>}>
       <Router>
         <Switch>
+          <Route exact path="/mail" component={Mail} />
           <Route exact path="/tabs" component={Tabs} />
           <Route exact path="/cart" component={CartAddress} />
           <Route exact path="/carousel" component={Carousel} />

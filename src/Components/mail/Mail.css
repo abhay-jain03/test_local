@@ -1,0 +1,39 @@
+.flexMail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trackButton {
+  background-color: red;
+  color: #ffffff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  text-align: center;
+  width: 12rem;
+  height: 2.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tableOrder {
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 4px 4px 0 0;
+  background: #f6f6f6;
+}
+.tableOrder2 {
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 0 0 4px 4px;
+  background: #f6f6f6;
+}
+.table1 {
+  background-color: rgb(41, 40, 70);
+  color: #fff;
+}
+
+.tdborder {
+  border: 1px solid #dddddd;
+}
