@@ -75,6 +75,8 @@ export default function Tabs(props) {
       {tab == "Business" ? <h1>{title}</h1> : ""}
       {tab == "Operations" ? <h1>{title}</h1> : ""}
       {tab == "Finance" ? <h1>{title}</h1> : ""}
+
+      <div>Hi {title}</div>
     </>
   );
 }
