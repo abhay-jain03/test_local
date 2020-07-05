@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import "./Tabs.css";
 
 export default function Tabs(props) {
-  // const [active, setActive] = useState(false);
+  const [active, setActive] = useState("Product");
   const [tab, setTab] = useState("Product");
 
   function openCity(event) {
     var pro = String(event.target.getAttribute("value"));
-    alert(pro);
-    // setActive(true);
+    // alert(pro);
+    setActive(pro);
     setTab(pro);
   }
 
@@ -36,7 +36,9 @@ export default function Tabs(props) {
           <div
             value={items}
             onClick={(event) => openCity(event)}
-            className="borderBottom paddingText tablink"
+            className={
+              active == items ? "borderBottom1 paddingText" : "paddingText"
+            }
           >
             {items}
           </div>
