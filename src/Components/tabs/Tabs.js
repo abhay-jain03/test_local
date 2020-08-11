@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Tabs.css";
+import Product from "./Product";
 
 export default function Tabs(props) {
   const [tab, setTab] = useState("Product");
@@ -38,10 +39,31 @@ export default function Tabs(props) {
         })}
       </div>
 
-      {active == 0 ? <div>Hello</div> : null}
-      {active == 1 ? <div>Hi</div> : null}
-      {active == 2 ? <div>How</div> : null}
-      {active == 3 ? <div>Are</div> : null}
+      {active == 0 ? (
+        <>
+          <Product name={tab} />
+        </>
+      ) : null}
+      {active == 1 ? (
+        <>
+          <Product name={tab} />
+        </>
+      ) : null}
+      {active == 2 ? (
+        <>
+          <Product name={tab} />
+        </>
+      ) : null}
+      {active == 3 ? (
+        <>
+          <Product name={tab} />
+        </>
+      ) : null}
+      {active == 4 ? (
+        <>
+          <Product name={tab} />
+        </>
+      ) : null}
     </>
   );
 }
