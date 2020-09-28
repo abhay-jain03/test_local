@@ -1,6 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 
-function Test2(props) {
+const Test2 = (props) => {
+
+  const [uploadImage, setUploadImage] = useState();
+
   const tryy = {
     background: "#f6f6f6",
     width: "40%",
