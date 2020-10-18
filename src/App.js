@@ -1,7 +1,6 @@
 import React from "react";
 import RoutingComponent from "./Routing";
 import "./App.css";
-import Test2 from "./Components/test2/Test2";
 
 // const btn1 = document.querySelector("btn");
 // btn1.addEventListener("click", e => {

@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import Product from "./Product";
 import ProductsData from "./Data";
 
@@ -13,4 +14,4 @@ function Test6(props) {
   );
 }
 
-export default Test6;
+export default withRouter(Test6);
