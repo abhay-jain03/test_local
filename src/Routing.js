@@ -29,7 +29,6 @@ const Test3 = lazy(() => import("./Components/test3/Test3"));
 const Test4 = lazy(() => import("./Components/test4/Test4"));
 const Test6 = lazy(() => import("./Components/test6/Test6"));
 const Test12 = lazy(() => import("./Components/test12/Test12"));
-const Spare = lazy(() => import("./Components/spare/Spare"));
 const Order = lazy(() => import("./Components/order/Order"));
 const Test15 = lazy(() => import("./Components/test15/Test15"));
 const Profile = lazy(() => import("./Components/profileDetails/Profile"));
@@ -65,7 +64,6 @@ const RoutingComponent = (props) => {
           <Route exact path="/Test2" component={Test2} />
           <Route exact path="/Test12" component={Test12} />
           {/* <Route exact path="/" component={Test2} /> */}
-          <Route exact path="/spares" component={Spare} />
           <Route exact path="/Test1" component={Test1} />
           <Route exact path="/Test3" component={Test3} />
           <Route exact path="/Test4" component={Test4} />
