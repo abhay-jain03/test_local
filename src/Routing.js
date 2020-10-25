@@ -8,6 +8,7 @@ import {
   Link,
 } from "react-router-dom";
 
+const Test1 = lazy(() => import("./Components/test1/Test1"));
 const Test6 = lazy(() => import("./Components/test6/Test6"));
 const Fetch = lazy(() => import("./Components/fetch/Fetch"));
 const ReactLearn = lazy(() => import("./Components/reactLearn/ReactLearn"));
@@ -31,8 +32,9 @@ const RoutingComponent = (props) => {
           <Route exact path="/fetch" component={Fetch} 
           // API Fetch
           />
-          <Route exact path="/" render={() => <Redirect to="/Test6" />} />
+          <Route exact path="/" render={() => <Redirect to="/Test1" />} />
           <Route exact path="/Test6" component={Test6} />
+          <Route exact path="/Test1" component={Test1} />
         </Switch>
       </Router>
     </Suspense>
