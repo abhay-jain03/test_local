@@ -9,6 +9,7 @@ export default function Mail() {
           <tr>
             <td>
               <img
+                alt="img"
                 style={{ height: "6rem" }}
                 src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/GoMechanic.png"
               />
@@ -17,6 +18,7 @@ export default function Mail() {
           <tr>
             <td>
               <img
+                alt="img"
                 style={{ width: "100%", height: "10rem" }}
                 src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/Estimate.jpg"
               />
@@ -25,6 +27,7 @@ export default function Mail() {
           <tr>
             <td>
               <img
+                alt="img"
                 style={{ width: "50%" }}
                 src="https://websiteasset.s3.ap-south-1.amazonaws.com/New+Website/components/Jobcard/orderConfirmed.png"
               />

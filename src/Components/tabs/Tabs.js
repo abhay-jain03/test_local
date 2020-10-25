@@ -27,9 +27,9 @@ export default function Tabs(props) {
           return (
             <>
               <div
-                onClick={() => (setTab(item.name), setActive(index))}
+                onClick={() => {setTab(item.name); setActive(index);}}
                 className={`borderBottom paddingText ${
-                  tab == item.name ? "borderBottom1" : null
+                  tab === item.name ? "borderBottom1" : null
                 }`}
               >
                 {item.name}
@@ -39,27 +39,27 @@ export default function Tabs(props) {
         })}
       </div>
 
-      {active == 0 ? (
+      {active === 0 ? (
         <>
           <Product name={tab} />
         </>
       ) : null}
-      {active == 1 ? (
+      {active === 1 ? (
         <>
           <Product name={tab} />
         </>
       ) : null}
-      {active == 2 ? (
+      {active === 2 ? (
         <>
           <Product name={tab} />
         </>
       ) : null}
-      {active == 3 ? (
+      {active === 3 ? (
         <>
           <Product name={tab} />
         </>
       ) : null}
-      {active == 4 ? (
+      {active === 4 ? (
         <>
           <Product name={tab} />
         </>

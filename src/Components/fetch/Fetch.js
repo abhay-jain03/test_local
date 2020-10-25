@@ -1,3 +1,5 @@
+/* eslint-disable no-native-reassign */
+/* eslint-disable no-unused-vars */
 import React from "react";
 
 let abc = document.getElementById("myBtn");
