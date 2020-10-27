@@ -35,6 +35,7 @@ const RoutingComponent = (props) => {
           <Route exact path="/Test6" component={Test6} 
           // Test Props Passing from one file to another
           />
+          <Route exact path="/*" render={() => <Redirect to="/Test1" />} />
         </Switch>
       </Router>
     </Suspense>
