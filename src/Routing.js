@@ -34,7 +34,9 @@ const RoutingComponent = (props) => {
           // API Fetch
           />
           <Route exact path="/" render={() => <Redirect to="/Test1" />} />
-          <Route exact path="/Test6" component={Test6} />
+          <Route exact path="/Test6" component={Test6} 
+          // Test Props Passing from one file to another
+          />
           <Route exact path="/Test1" component={Test1} />
           <Route exact path="/PopUp" component={PopUp} />
         </Switch>
