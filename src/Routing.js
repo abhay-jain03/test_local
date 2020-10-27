@@ -15,6 +15,7 @@ const ReactLearn = lazy(() => import("./Components/reactLearn/ReactLearn"));
 const Carousel = lazy(() => import("./Components/carousel/Carousel"));
 const Tabs = lazy(() => import("./Components/tabs/Tabs"));
 const Mail = lazy(() => import("./Components/mail/Mail"));
+const PopUp = lazy(() => import("./Components/popUp/PopUp"));
 
 const RoutingComponent = (props) => {
   return (
@@ -35,6 +36,7 @@ const RoutingComponent = (props) => {
           <Route exact path="/" render={() => <Redirect to="/Test1" />} />
           <Route exact path="/Test6" component={Test6} />
           <Route exact path="/Test1" component={Test1} />
+          <Route exact path="/PopUp" component={PopUp} />
         </Switch>
       </Router>
     </Suspense>
