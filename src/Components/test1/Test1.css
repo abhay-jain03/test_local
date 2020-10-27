@@ -1,3 +1,32 @@
 .bg {
   background: #f6f6f6;
 }
+
+.headerComponent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  height: 65px;
+  background: grey;
+  padding: 0 2%;
+}
+
+.headerLogo {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.ul-header {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ul-header > li {
+  padding: 1rem;
+}
