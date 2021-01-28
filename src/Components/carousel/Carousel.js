@@ -1,27 +1,20 @@
 import React, { useEffect } from "react";
-import Glide from "@glidejs/glide";
-// import Glide, {
-//   Controls,
-//   Breakpoints,
-// } from "@glidejs/glide/dist/glide.modular.esm";
+import Ap from './Ap.json';
 
-export default function Carousel() {
-  useEffect(() => {
-    new Glide(".glide").mount();
-  }, []);
+const Carousel = (props) => {
 
   return (
     <>
-      <h1>Hi!</h1>
-      <div className="glide">
-        <div className="glide__track" data-glide-el="track">
-          <ul className="glide__slides">
-            <li className="glide__slide">0</li>
-            <li className="glide__slide">1</li>
-            <li className="glide__slide">2</li>
-          </ul>
-        </div>
-      </div>
+      {Ap["cooling-system"].FAQ.map((i) => (
+        <>
+          <h2>{i.question}</h2>
+          <div>{i.answer}</div>
+        </>
+      ))}
+      <h1>{Ap["cooling-system"].heading}</h1>
+      <div dangerouslySetInnerHTML={{ __html: Ap["cooling-system"].desc}}></div>
     </>
-  );
+  )
 }
+
+export default Carousel;
