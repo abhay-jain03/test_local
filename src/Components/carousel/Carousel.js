@@ -1,19 +1,20 @@
 import React, { useEffect } from "react";
-import Ap from './Ap.json';
+import Ap from './category.json';
 import hp from './homepage.json';
+import oem from './oem.json'
 
 const Carousel = (props) => {
 
   return (
     <>
-      {hp.spares.faq.map((i) => (
+      {oem.brand2.faq.map((i) => (
         <>
-          <h2>{i.question}</h2>
+          <h2 dangerouslySetInnerHTML={{ __html: i.question}}></h2>
           <div dangerouslySetInnerHTML={{ __html: i.answer}}></div>
         </>
       ))}
-      <h1>{hp.spares.heading}</h1>
-      <div dangerouslySetInnerHTML={{ __html: hp.spares.desc}}></div>
+      <h1>{oem.brand2.heading}</h1>
+      <div dangerouslySetInnerHTML={{ __html: oem.brand2.desc}}></div>
     </>
   )
 }
