@@ -1,18 +1,19 @@
 import React, { useEffect } from "react";
 import Ap from './Ap.json';
+import hp from './homepage.json';
 
 const Carousel = (props) => {
 
   return (
     <>
-      {Ap["cooling-system"].FAQ.map((i) => (
+      {hp.spares.faq.map((i) => (
         <>
           <h2>{i.question}</h2>
-          <div>{i.answer}</div>
+          <div dangerouslySetInnerHTML={{ __html: i.answer}}></div>
         </>
       ))}
-      <h1>{Ap["cooling-system"].heading}</h1>
-      <div dangerouslySetInnerHTML={{ __html: Ap["cooling-system"].desc}}></div>
+      <h1>{hp.spares.heading}</h1>
+      <div dangerouslySetInnerHTML={{ __html: hp.spares.desc}}></div>
     </>
   )
 }
