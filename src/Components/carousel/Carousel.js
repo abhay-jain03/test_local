@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import Ap from './category.json';
-import hp from './homepage.json';
+import React from "react";
 import oem from './oem.json'
 
 const Carousel = (props) => {
