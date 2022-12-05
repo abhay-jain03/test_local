@@ -22,7 +22,7 @@ const Test1 = (props) => {
   };
 
   useEffect(() => {
-    // document.addEventListener('scroll', handleScroll);
+    document.addEventListener('scroll', handleScroll);
   }, []);
 
 
@@ -42,7 +42,6 @@ const Test1 = (props) => {
         <img src='/assets/img/img1.jpg' />
       </OwlCarousel>
 
-      <Headroom>
         <nav
           id="header"
           class="navbar navbar-expand-xl headroom--top header-custom"
@@ -161,7 +160,6 @@ const Test1 = (props) => {
             </div>
           </div>
         </nav>
-      </Headroom>
         {/* <!--  --> */}
         {/* <!-- off canvas --> */}
         <div
